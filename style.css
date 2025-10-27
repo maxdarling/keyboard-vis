@@ -1,3 +1,7 @@
+.layout {
+    background: lightgrey;
+}
+
 table {
     background: lightblue;
     border: 1px solid rgb(160 160 160);
@@ -10,4 +14,12 @@ td {
     background: white;
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
+    transition: all 0.1s ease;
 }
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
